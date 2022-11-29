@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+   
+    list-style: none;
+    text-decoration: none;
+
+    color: beige;
+    font-family: 'syne-mono';    
+}
+@font-face {
+    src: url(SyneMono-Regular.ttf);
+    font-family: 'syne-mono';    
+    font-weight: normal;
+} 
+   body { 
+    display: flex; flex-direction: column; align-items: center;
+
+    height: 100vh;  width: 100%;
+     
+    background-image: linear-gradient( rgb(9, 9, 243), rgb(49, 41, 155), rgb(74, 85, 145), rgb(167, 165, 165) );
+
+   
+
+    }
+
+
+    header{
+        background: rgba(209, 95, 95, 0);
+
+        display: flex; justify-content: center; flex-direction: column; align-items: center;
+
+        width: 40%; height: 30%;
+
+        margin: 1%; border-radius: 6px;
+    }
+    header img{
+width: 30%;
+border-radius: 50%;
+
+margin-bottom: 15px;
+
+    }
+    main{
+        background: rgba(173, 151, 151, 0); border-radius: 6px;  margin: 1%;
+
+        height: 50%; width: 40%;
+
+        display: flex; justify-content: center; flex-direction: column; align-items: center; 
+        font-family: 'Syne-mono';
+    }
+    footer {
+
+        background: rgba(129, 128, 128, 0); border-radius: 6px; width: 40%;
+
+        display: flex; flex-direction: row; justify-content: center; align-items: center;
+
+        width: 40%; height: 12%;
+
+    } .mid{
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 80%; height: 95%;
+        display: flex; flex-direction: column; align-items: center; justify-content: space-around;
+
+        margin-left: -29px;
+    }
+    .mid a{
+        border: 1px solid rgba(5, 5, 5, 0); background-image:radial-gradient( rgb(78, 68, 68), rgb(23, 23, 44), rgb(13, 13, 26) , rgb(8, 8, 22)
+        );
+        width: 90% ; height: 17%;
+         display: flex; justify-content: center; align-items: center; 
+
+    }
+    .down{
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 90%; height: 90%;
+
+        display: flex; align-items: center; justify-content: space-around;
+
+        margin-left: -29px;
+    }
+    .down a{
+
+
+        border: 1px solid rgba(0, 0, 0, 0);
+        width:15%; height: 80%;
+
+        display: flex; align-items: center; justify-content: center;
+    }
+.mid a:hover{
+transform: scale(1.1);
+transition: 0.4s;
+background: rgba(0, 0, 0, 0.288);
+}
+.down a:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+
+}
